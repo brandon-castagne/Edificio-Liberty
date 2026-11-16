@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBERTY by Smart Wasi | Preventa de departamentos en Sucre</title>
+
+    <!-- SEO y vista previa al compartir (WhatsApp / Facebook) -->
+    <meta name="description" content="Monoambientes y departamentos en preventa en Zona Petrolero, Sucre. Anticipo desde 30% y precio preferencial al contado. Calle Comarapa 124.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LIBERTY by Smart Wasi | Preventa en Sucre">
+    <meta property="og:description" content="Departamentos desde $US 45.000 en Zona Petrolero. Anticipo desde 30%.">
+    <!-- CAMBIA: pon tu usuario y nombre de repositorio, y sube img/portada.jpg (1200x630 px aprox.) -->
+    <meta property="og:image" content="https://brandon-castagne.github.io/NOMBRE-REPO/img/portada.jpg">
+    <meta name="theme-color" content="#020617">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23020617'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle' font-family='Arial' font-weight='700' fill='%23fbbf24'%3EL%3C/text%3E%3C/svg%3E">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes modalIn { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
+        .modal-in { animation: modalIn .2s ease-out; }
+        @media (prefers-reduced-motion: reduce) { .modal-in { animation: none; } html { scroll-behavior: auto; } }
+        a:focus-visible, button:focus-visible { outline: 2px solid #fbbf24; outline-offset: 2px; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+    <!-- HEADER / HERO -->
+    <header class="relative min-h-screen flex items-center justify-center px-4 overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]" aria-hidden="true"></div>
+        <!-- Imagen grande de portada: sube tu foto como img/portada.jpg -->
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('img/portada.jpg')" aria-hidden="true"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/55 to-slate-950" aria-hidden="true"></div>
+        <div class="relative z-10 max-w-4xl text-center py-24">
+            <div class="inline-block mb-4 px-4 py-1.5 rounded-full border border-amber-500/40 bg-slate-950/50 text-amber-400 text-sm font-medium tracking-widest uppercase backdrop-blur-sm">
+                Una nueva forma de vivir
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 drop-shadow-lg">
+                LIBERTY <span class="text-amber-400 font-light">by Smart Wasi</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl mx-auto font-light drop-shadow">
+                El nuevo estándar del lujo residencial. Espacios sofisticados que fusionan tecnología inteligente, diseño vanguardista y confort absoluto en Sucre, Bolivia.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#precios" class="px-8 py-3.5 rounded-xl bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">
+                    Ver precios y tipologías
+                </a>
+                <a data-wa="1" data-msg="Hola, quiero información sobre Liberty" href="#" target="_blank" rel="noopener noreferrer" class="px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i> Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="py-20 px-4 max-w-6xl mx-auto border-t border-slate-900">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-amber-400 text-sm font-semibold tracking-wider uppercase">Ubicación estratégica</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Zona Petrolero, Sucre</h2>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    Ubicado en la exclusiva <strong class="text-white">Calle Comarapa 124</strong>, en la Zona Petrolero. Una zona residencial de alta plusvalía, con vías de acceso principales como la Av. Emilio Mendizábal y un entorno sumamente tranquilo y seguro.
+                </p>
+                <div class="flex items-center gap-3 text-slate-400 bg-slate-900/80 p-4 rounded-xl border border-slate-800 mb-4">
+                    <i class="fa-solid fa-location-dot text-amber-400 text-xl" aria-hidden="true"></i>
+                    <div>
+                        <p class="text-white font-semibold">Calle Comarapa 124</p>
+                        <p class="text-xs text-slate-400">Zona Petrolero • Sucre, Bolivia</p>
+                    </div>
+                </div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Calle+Comarapa+124+Sucre+Bolivia" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-slate-700 hover:bg-slate-900 transition text-sm font-medium">
+                    <i class="fa-solid fa-map-location-dot text-amber-400" aria-hidden="true"></i> Abrir en Google Maps
+                </a>
+            </div>
+            <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-xl">
+                <h3 class="text-xl font-bold mb-4 text-amber-400">Atributos tecnológicos y seguridad</h3>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-fingerprint text-amber-400 mt-1" aria-hidden="true"></i>
+                        <span><strong>Chapa digital</strong> con ingreso autónomo y máxima seguridad.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-mobile-screen-button text-amber-400 mt-1" aria-hidden="true"></i>
+                        <span><strong>Interruptor touch principal</strong> con conexión a red Wi-Fi integrada.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-lightbulb text-amber-400 mt-1" aria-hidden="true"></i>
+                        <span><strong>Iluminación LED indirecta</strong> en todos los ambientes y plafones decorativos.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- AMENIDADES -->
+    <section class="py-20 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-amber-400 text-sm font-semibold tracking-wider uppercase">Confort y exclusividad</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">Amenidades de nivel superior</h2>
+                <p class="text-slate-400 mt-2">Diseñadas para elevar tu estilo de vida y bienestar diario.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-film" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Sala Premier (cine)</h3>
+                    <p class="text-slate-400 text-sm">Momentos para compartir con proyector Smart y sillones confortables de alta gama.</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Smart Game</h3>
+                    <p class="text-slate-400 text-sm">Espacio de diversión con futbolín, mesa de ping-pong y dardos para disfrutar entre amigos.</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="h-12 w-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-fire-burner" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Terraza Social</h3>
+                    <p class="text-slate-400 text-sm">Área de churrasquero bajo techo, fogoneros con sillones, lavanderías tradicionales y área de secado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA (aparece sola cuando subes imágenes a img/) -->
+    <section id="galeria" class="hidden py-20 px-4 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-amber-400 text-sm font-semibold tracking-wider uppercase">Galería</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">Conoce Liberty</h2>
+            </div>
+            <div id="galeriaGrid" class="grid grid-cols-2 md:grid-cols-3 gap-4"></div>
+        </div>
+    </section>
+
+    <!-- PRECIOS Y TIPOLOGÍAS -->
+    <section id="precios" class="py-20 px-4 max-w-6xl mx-auto border-t border-slate-900">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="text-amber-400 text-sm font-semibold tracking-wider uppercase">Segunda etapa</span>
+            <h2 class="text-3xl md:text-4xl font-bold mt-2">Precios de preventa</h2>
+            <p class="text-slate-400 mt-2">Anticipo mínimo del 30% y saldo financiado. ¡Pago al contado con precio preferencial! (Tipo de cambio: 6.96 Bs/$US)</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Tipos A & C -->
+            <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="px-3 py-1 bg-amber-500/10 text-amber-400 text-xs font-bold rounded-lg uppercase">1 dormitorio</span>
+                        <span class="text-slate-400 text-sm">A: 35.26 m² · C: 35.93 m²</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-1">Tipos A y C</h3>
+                    <p class="text-slate-400 text-sm mb-6">1 dormitorio, 1 baño, sala-comedor, cocina y espacio para lavadora.</p>
+                    <div class="space-y-3 mb-6 border-y border-slate-800 py-4">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Precio regular:</span>
+                            <span class="font-semibold">$US 45.000 <span class="text-xs text-slate-400">(313.200 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Anticipo 30% mín.:</span>
+                            <span class="font-semibold text-amber-400">$US 13.500 <span class="text-xs text-slate-400">(93.960 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Al contado:</span>
+                            <span class="font-bold text-emerald-400">$US 40.000 <span class="text-xs text-slate-400">(278.400 Bs)</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <div class="grid grid-cols-2 gap-2">
+                        <button type="button" onclick="openModal('a')" class="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 font-medium transition text-sm flex items-center justify-center gap-2">
+                            <i class="fa-regular fa-image text-amber-400" aria-hidden="true"></i> Plano A
+                        </button>
+                        <button type="button" onclick="openModal('c')" class="py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 font-medium transition text-sm flex items-center justify-center gap-2">
+                            <i class="fa-regular fa-image text-amber-400" aria-hidden="true"></i> Plano C
+                        </button>
+                    </div>
+                    <a data-wa="1" data-msg="Hola, me interesa el departamento Tipo A o C de Liberty" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-medium transition text-sm flex items-center justify-center gap-2 text-white">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tipo B -->
+            <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="px-3 py-1 bg-amber-500/10 text-amber-400 text-xs font-bold rounded-lg uppercase">1 dormitorio</span>
+                        <span class="text-slate-400 text-sm">37.32 m²</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-1">Tipo B (con balcón)</h3>
+                    <p class="text-slate-400 text-sm mb-6">1 dormitorio, 1 baño, sala-comedor, cocina, balcón y lavadora.</p>
+                    <div class="space-y-3 mb-6 border-y border-slate-800 py-4">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Precio regular:</span>
+                            <span class="font-semibold">$US 46.000 <span class="text-xs text-slate-400">(320.160 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Anticipo 30% mín.:</span>
+                            <span class="font-semibold text-amber-400">$US 13.800 <span class="text-xs text-slate-400">(96.048 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Al contado:</span>
+                            <span class="font-bold text-emerald-400">$US 41.000 <span class="text-xs text-slate-400">(285.360 Bs)</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <button type="button" onclick="openModal('b')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 font-medium transition text-sm flex items-center justify-center gap-2">
+                        <i class="fa-regular fa-image text-amber-400" aria-hidden="true"></i> Ver plano e imagen
+                    </button>
+                    <a data-wa="1" data-msg="Hola, me interesa el departamento Tipo B de Liberty" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-medium transition text-sm flex items-center justify-center gap-2 text-white">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tipo E -->
+            <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-bold rounded-lg uppercase">Familiar</span>
+                        <span class="text-slate-400 text-sm">56.60 m²</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-1">Departamento Tipo E</h3>
+                    <p class="text-slate-400 text-sm mb-6">2 dormitorios, 1 baño, sala-comedor, cocina, cuarto de estudio y lavadora.</p>
+                    <div class="space-y-3 mb-6 border-y border-slate-800 py-4">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Precio regular:</span>
+                            <span class="font-semibold">$US 66.000 <span class="text-xs text-slate-400">(459.360 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Anticipo 30% mín.:</span>
+                            <span class="font-semibold text-amber-400">$US 19.800 <span class="text-xs text-slate-400">(137.808 Bs)</span></span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-slate-400">Al contado:</span>
+                            <span class="font-bold text-emerald-400">$US 61.000 <span class="text-xs text-slate-400">(424.560 Bs)</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <button type="button" onclick="openModal('e')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 font-medium transition text-sm flex items-center justify-center gap-2">
+                        <i class="fa-regular fa-image text-amber-400" aria-hidden="true"></i> Ver plano e imagen
+                    </button>
+                    <a data-wa="2" data-msg="Hola, me interesa el departamento Tipo E de Liberty" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-medium transition text-sm flex items-center justify-center gap-2 text-white">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tipo D -->
+            <div class="bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col justify-between md:col-span-2 lg:col-span-2">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-bold rounded-lg uppercase">Familiar amplio</span>
+                        <span class="text-slate-400 text-sm">65.26 m²</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-1">Departamento Tipo D</h3>
+                    <p class="text-slate-400 text-sm mb-6">2 dormitorios, 1 baño, sala de estar, comedor, cocina equipada y espacio para lavadora.</p>
+                    <div class="grid md:grid-cols-3 gap-4 mb-6 border-y border-slate-800 py-4">
+                        <div class="text-center">
+                            <span class="block text-xs text-slate-400 mb-1">Precio regular</span>
+                            <span class="font-semibold text-lg">$US 78.000</span>
+                            <span class="block text-xs text-slate-400">542.880 Bs</span>
+                        </div>
+                        <div class="text-center border-y md:border-y-0 md:border-x border-slate-800 py-2 md:py-0">
+                            <span class="block text-xs text-slate-400 mb-1">Anticipo 30% mín.</span>
+                            <span class="font-semibold text-lg text-amber-400">$US 23.400</span>
+                            <span class="block text-xs text-slate-400">162.864 Bs</span>
+                        </div>
+                        <div class="text-center">
+                            <span class="block text-xs text-slate-400 mb-1">Al contado</span>
+                            <span class="font-bold text-lg text-emerald-400">$US 72.000</span>
+                            <span class="block text-xs text-slate-400">501.120 Bs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-3">
+                    <button type="button" onclick="openModal('d')" class="py-3 rounded-xl bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition text-sm flex items-center justify-center gap-2">
+                        <i class="fa-regular fa-image text-slate-950" aria-hidden="true"></i> Ver plano Tipo D
+                    </button>
+                    <a data-wa="2" data-msg="Hola, me interesa el departamento Tipo D de Liberty" href="#" target="_blank" rel="noopener noreferrer" class="py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-bold transition text-sm flex items-center justify-center gap-2 text-white">
+                        <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i> Contactar por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta de visita (completa la rejilla) -->
+            <div class="rounded-3xl p-6 border border-amber-500/30 bg-gradient-to-br from-amber-500/10 to-slate-900 flex flex-col justify-center text-center">
+                <i class="fa-solid fa-calendar-check text-amber-400 text-3xl mb-3" aria-hidden="true"></i>
+                <h3 class="text-xl font-bold mb-2">¿Quieres conocer el proyecto?</h3>
+                <p class="text-slate-300 text-sm mb-5">Agenda una visita y te explicamos las formas de pago y el avance de obra.</p>
+                <a data-wa="1" data-msg="Hola, quiero agendar una visita al proyecto Liberty" href="#" target="_blank" rel="noopener noreferrer" class="py-3 rounded-xl bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition text-sm flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i> Agendar visita
+                </a>
+            </div>
+        </div>
+
+        <p class="text-center text-xs text-slate-400 mt-10 max-w-2xl mx-auto">
+            Imágenes y planos referenciales. Precios, superficies y disponibilidad sujetos a cambio sin previo aviso. Tipo de cambio referencial: 6.96 Bs/$US.
+        </p>
+    </section>
+
+    <!-- MODAL PLANOS / IMÁGENES -->
+    <div id="imageModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+         role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-in bg-slate-900 border border-slate-800 rounded-3xl max-w-lg w-full max-h-[95vh] overflow-y-auto shadow-2xl relative">
+            <div class="flex justify-between items-center p-4 border-b border-slate-800">
+                <div>
+                    <h3 id="modalTitle" class="text-lg font-bold text-white">Título</h3>
+                    <p id="modalSubtitle" class="text-xs text-amber-400">Subtítulo</p>
+                </div>
+                <button type="button" onclick="closeModal()" aria-label="Cerrar" class="h-10 w-10 rounded-full bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-slate-300 transition">
+                    <i class="fa-solid fa-xmark text-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="p-4 bg-slate-950 flex justify-center">
+                <img id="modalImage" src="" alt="" class="max-h-[70vh] rounded-xl object-contain border border-slate-800">
+                <p id="modalMsg" class="hidden py-16 text-slate-400 text-sm">Plano disponible próximamente. Consúltalo por WhatsApp.</p>
+            </div>
+            <div class="p-4 text-center border-t border-slate-800 bg-slate-900">
+                <button type="button" onclick="closeModal()" class="px-6 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-medium transition">Cerrar visor</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a data-wa="1" data-msg="Hola, quiero información sobre Liberty" href="#" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"
+       class="fixed bottom-5 right-5 z-40 h-14 w-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white text-3xl flex items-center justify-center shadow-lg shadow-emerald-500/30 transition">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-slate-900 border-t border-slate-800 text-center text-sm text-slate-400">
+        <p class="font-bold text-white mb-1">LIBERTY by Smart Wasi</p>
+        <p>Calle Comarapa 124 • Zona Petrolero • Sucre, Bolivia</p>
+        <p class="mt-1">© <span id="year">2026</span> Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        /* ================= CONFIGURACIÓN: EDITA AQUÍ ================= */
+
+        // Números de WhatsApp con código de país, sin + ni espacios. Ej: 59171234567
+        // (si tienes un solo número, pon el mismo en los dos)
+        const WHATSAPP = {
+            1: '59100000000',   // CAMBIA: número real
+            2: '59100000000'    // CAMBIA: número real
+        };
+
+        // Planos de cada tipo (sube estos archivos a la carpeta img/ de tu repositorio)
+        const TIPOS = {
+            a:  { titulo: 'Departamento Tipo A', sub: '1 dormitorio (35.26 m²)',            img: 'img/plano-a.jpg' },
+            c:  { titulo: 'Departamento Tipo C', sub: '1 dormitorio (35.93 m²)',            img: 'img/plano-c.jpg' },
+            b:  { titulo: 'Tipo B (con balcón)', sub: '1 dormitorio (37.32 m²)',            img: 'img/plano-b.jpg' },
+            e:  { titulo: 'Departamento Tipo E', sub: 'Familiar (56.60 m²)',                img: 'img/plano-e.jpg' },
+            d:  { titulo: 'Departamento Tipo D', sub: 'Familiar amplio (65.26 m²)',         img: 'img/plano-d.jpg' }
+        };
+
+        // Galería: solo se muestran las que existan en img/. Agrega o quita líneas libremente.
+        const GALERIA = [
+            { titulo: 'Fachada',        img: 'img/galeria-1.jpg' },
+            { titulo: 'Sala Premier',   img: 'img/galeria-2.jpg' },
+            { titulo: 'Smart Game',     img: 'img/galeria-3.jpg' },
+            { titulo: 'Terraza Social', img: 'img/galeria-4.jpg' },
+            { titulo: 'Departamento',   img: 'img/galeria-5.jpg' },
+            { titulo: 'Áreas comunes',  img: 'img/galeria-6.jpg' }
+        ];
+
+        /* ============================================================= */
+
+        // Enlaces de WhatsApp
+        document.querySelectorAll('[data-wa]').forEach(function (a) {
+            a.href = 'https://wa.me/' + WHATSAPP[a.dataset.wa] + '?text=' + encodeURIComponent(a.dataset.msg);
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Modal
+        var modal = document.getElementById('imageModal');
+        var lastFocus = null;
+
+        function showImage(titulo, sub, src) {
+            lastFocus = document.activeElement;
+            var img = document.getElementById('modalImage');
+            var msg = document.getElementById('modalMsg');
+            document.getElementById('modalTitle').textContent = titulo;
+            document.getElementById('modalSubtitle').textContent = sub;
+            img.classList.remove('hidden');
+            msg.classList.add('hidden');
+            img.onerror = function () { img.classList.add('hidden'); msg.classList.remove('hidden'); };
+            img.alt = 'Imagen referencial: ' + titulo;
+            img.src = src;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            modal.querySelector('button').focus();
+        }
+
+        function openModal(key) {
+            var t = TIPOS[key];
+            if (t) showImage(t.titulo, t.sub, t.img);
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            if (lastFocus) lastFocus.focus();
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+        });
+        modal.addEventListener('click', function (e) {
+            if (e.target === modal) closeModal();
+        });
+
+        // Galería: carga solo las imágenes que existen
+        (function () {
+            var grid = document.getElementById('galeriaGrid');
+            var section = document.getElementById('galeria');
+            GALERIA.forEach(function (g) {
+                var probe = new Image();
+                probe.onload = function () {
+                    var b = document.createElement('button');
+                    b.type = 'button';
+                    b.className = 'group relative overflow-hidden rounded-2xl border border-slate-800 aspect-[4/3]';
+                    b.innerHTML = '<img src="' + g.img + '" alt="' + g.titulo + '" class="h-full w-full object-cover transition duration-300 group-hover:scale-105">' +
+                                  '<span class="absolute inset-x-0 bottom-0 p-3 text-left text-sm font-medium bg-gradient-to-t from-slate-950/90 to-transparent">' + g.titulo + '</span>';
+                    b.onclick = function () { showImage(g.titulo, 'Imagen referencial', g.img); };
+                    grid.appendChild(b);
+                    section.classList.remove('hidden');
+                };
+                probe.src = g.img;
+            });
+        })();
+    </script>
+
+</body>
+</html>
